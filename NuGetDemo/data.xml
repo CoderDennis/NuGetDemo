@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<people>
+<people xmlns="demo">
   <person>
     <name>Dennis Palmer</name>
     <twitter>CoderDennis</twitter>
