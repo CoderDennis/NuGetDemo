@@ -9,7 +9,8 @@ Public Class MyService
         'Return dataXml...<person>.ToDictionary(Function(p) p.<name>.Value, Function(p) p.<twitter>.Value)
         'Return dataXml...<person>.ToDictionary(Function(p) p.<name>.Value, Function(p) p.<twitter>.Value)
         Dim data = New Dictionary(Of String, String)
-        data.Add("Dennis", "CoderDennis")
+        data.Add("Dennis Palmer", "CoderDennis")
+        data.Add("Johnny", "JohnJelinek")
         Return data
     End Function
 
